@@ -162,7 +162,7 @@ export default {
     const mapRef = ref(null)
     const loadingMap = ref(null)
 
-    const { result, isLoading, error } = useFetch('http://www.mocky.io/v2/5c7552e43100009c20c23450')
+    const { result, isLoading, error } = useFetch('https://www.mocky.io/v2/5c7552e43100009c20c23450')
 
     function calculateAndDisplayRoute(directionsService, directionsDisplay, pointA, pointB, api) {
       directionsService.route(

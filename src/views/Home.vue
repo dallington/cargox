@@ -64,7 +64,7 @@ export default {
   components: {},
   setup() {
     const fretes = ref([])
-    const { result, isLoading, error } = useFetch('http://www.mocky.io/v2/5c7552e43100009c20c23450')
+    const { result, isLoading, error } = useFetch('https://www.mocky.io/v2/5c7552e43100009c20c23450')
     const items = [
       { text: 'Real-Time', icon: 'mdi-clock' },
       { text: 'Audience', icon: 'mdi-account' },
