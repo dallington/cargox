@@ -1,3 +1,6 @@
+# Information
+Create .env with VUE_APP_GMAPS_API_KEY=YOURKEYFORMAP
+
 # app
 
 ## Project setup
