@@ -1,3 +1,6 @@
+# Information
+Create .env with VUE_APP_GMAPS_API_KEY
+
 # app
 
 ## Project setup
