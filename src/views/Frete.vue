@@ -62,11 +62,11 @@
                     <p v-html="formatAddress(result.origin)"></p>
                   </DisplayInformation>
 
-                  <DisplayInformation title="Destino" icon="mdi-account-cog">
+                  <DisplayInformation title="Destino" icon="mdi-flag">
                     <p v-html="formatAddress(result.destination)"></p>
                   </DisplayInformation>
 
-                  <DisplayInformation title="Operação" :content="result.trucker_seeker.name" icon="mdi-flag" />
+                  <DisplayInformation title="Operação" :content="result.trucker_seeker.name" icon="mdi-account-cog" />
 
                   <DisplayInformation title="Venda" :content="result.salesperson.name" icon="mdi-account-cash" />
                 </v-col>
@@ -262,7 +262,6 @@ export default {
       return `${address}, ${number} <br> ${city} - ${state} - CEP: ${zipCode}`
     }
 
-    console.log(VUE_APP_GMAPS_API_KEY)
     return {
       mapRef,
       result,
