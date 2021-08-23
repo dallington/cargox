@@ -1,5 +1,8 @@
 {
   "include": [
     "./src/**/*"
-  ]
+  ],
+  "compilerOptions": {
+    "module": "es2015"
+  }
 }
